@@ -1,0 +1,80 @@
+{
+	"licenceStatuses": [
+		"NotActive",
+		"Active",
+		"Expiring",
+		"Expired",
+		"Terminated"
+	],
+	"context": {
+		"page": 1,
+		"size": 50,
+		"pages": 1,
+		"totalRows": 7
+	},
+	"items": [
+		{
+			"studyName": "Licensed for test",
+			"licenceStartDate": "2020-06-05T00:00:00",
+			"licenceExpirationDate": "2022-05-05T00:00:00",
+			"licenceStatus": "Active",
+			"participantsCount": 0,
+			"staffCount": 5,
+			"id": 75
+		},
+		{
+			"studyName": "Test study #1",
+			"licenceStartDate": "2020-06-09T00:00:00",
+			"licenceExpirationDate": "2021-06-09T00:00:00",
+			"licenceStatus": "Active",
+			"participantsCount": 0,
+			"staffCount": 0,
+			"id": 83
+		},
+		{
+			"studyName": "Test act licensied",
+			"licenceStartDate": "2020-06-05T00:00:00",
+			"licenceExpirationDate": "2020-12-05T00:00:00",
+			"licenceStatus": "Active",
+			"participantsCount": 0,
+			"staffCount": 4,
+			"id": 74
+		},
+		{
+			"studyName": "JulQA Licensed",
+			"licenceStartDate": "2020-06-04T00:00:00",
+			"licenceExpirationDate": "2020-12-04T00:00:00",
+			"licenceStatus": "Terminated",
+			"participantsCount": 0,
+			"staffCount": 1,
+			"id": 19
+		},
+		{
+			"studyName": "Lic not active",
+			"licenceStartDate": "2020-06-14T00:00:00",
+			"licenceExpirationDate": "2020-08-14T00:00:00",
+			"licenceStatus": "NotActive",
+			"participantsCount": 0,
+			"staffCount": 0,
+			"id": 84
+		},
+		{
+			"studyName": "Test active licensied",
+			"licenceStartDate": "2020-06-05T00:00:00",
+			"licenceExpirationDate": "2020-07-05T00:00:00",
+			"licenceStatus": "Expiring",
+			"participantsCount": 0,
+			"staffCount": 0,
+			"id": 72
+		},
+		{
+			"studyName": "Licensed expiring 06/08/2020",
+			"licenceStartDate": "2020-05-09T00:00:00",
+			"licenceExpirationDate": "2020-06-08T00:00:00",
+			"licenceStatus": "Expired",
+			"participantsCount": 0,
+			"staffCount": 0,
+			"id": 82
+		}
+	]
+}
