@@ -1,0 +1,74 @@
+.promo-section__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.promo-section__col {
+    width: 350px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+
+    &:hover {
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.8);
+    }
+}
+
+.promo-section__col-title {
+    margin-bottom: 20px;
+    color: #666666;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.promo-section__col-subtitle {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.promo-section__col.with_back {
+    background-image: url(/img/watch-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .promo-section__col-title {
+        width: 191px;
+        margin-top: 160px;
+        color: white;
+    }
+}
+
+.promo-section__col.double-block {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.promo-section__col__title-cell {
+    color: #666666;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.promo-section__col__img-cell {
+    width: 137.55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

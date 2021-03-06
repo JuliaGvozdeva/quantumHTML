@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantum</title>
+    <link rel="stylesheet" href="/libs/owl-carousel/assets/owl.carousel.css">
     <link rel="stylesheet" href="/css/main.css">
     <link
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=cyrillic,cyrillic-ext"
@@ -26,9 +27,9 @@
                         <div data-select class="header-select">
                             <div class="header-select__title">
                                 <div data-select-title class="header-select__title-text">CATEGORY</div>
-                                <div class="header-select__title_arrrow"></div>
+                                <div class="header-select__title-arrrow"></div>
                             </div>
-                            <div class="header-select__dropdown search-select hidden">
+                            <div class="header-select__dropdown search-select">
                                 <div data-select-item="Mobile" class="header-select__dropdown-item">Mobile</div>
                                 <div data-select-item="Tablet" class="header-select__dropdown-item">Tablet</div>
                                 <div data-select-item="Laptop" class="header-select__dropdown-item">Laptop</div>
@@ -100,7 +101,7 @@
                             </svg>
                         </div>
                         <div data-select-title class="menu-select__categories-title">All Categories</div>
-                        <div class="header-select__dropdown menu-categories hidden">
+                        <div class="header-select__dropdown menu-categories">
                             <div data-select-item="Mobile" class="header-select__dropdown-item">Mobile</div>
                             <div data-select-item="Tablet" class="header-select__dropdown-item">Tablet</div>
                             <div data-select-item="Laptop" class="header-select__dropdown-item">Laptop</div>
@@ -121,9 +122,9 @@
                     <div data-select class="header__menu-select">
                         <div class="header-select__title">
                             <div data-select-title class="header-select__title-text">Help</div>
-                            <div class="header-select__title_arrrow"></div>
+                            <div class="header-select__title-arrrow"></div>
                         </div>
-                        <div class="header-select__dropdown search-select hidden">
+                        <div class="header-select__dropdown search-select">
                             <div data-select-item="Help1" class="header-select__dropdown-item">Help1</div>
                             <div data-select-item="Help2" class="header-select__dropdown-item">Help2</div>
                             <div data-select-item="Help3" class="header-select__dropdown-item">Help3</div>
@@ -138,12 +139,12 @@
                     <div data-select class="header__menu-select">
                         <div class="header-select__title">
                             <div data-select-title class="header-select__title-text">Currency</div>
-                            <div class="header-select__title_arrrow"></div>
+                            <div class="header-select__title-arrrow"></div>
                         </div>
-                        <div class="header-select__dropdown search-select hidden">
-                            <div data-select-item="Help1" class="header-select__dropdown-item">RUB</div>
-                            <div data-select-item="Help2" class="header-select__dropdown-item">USD</div>
-                            <div data-select-item="Help3" class="header-select__dropdown-item">EUR</div>
+                        <div class="header-select__dropdown search-select">
+                            <div data-select-item="RUB" class="header-select__dropdown-item">RUB</div>
+                            <div data-select-item="USD" class="header-select__dropdown-item">USD</div>
+                            <div data-select-item="EUR" class="header-select__dropdown-item">EUR</div>
                             <select class="hidden" name="select_menu-currency" id="selectReal" value="none">
                                 <option value="none">Currency</option>
                                 <option value="RUB">RUB</option>
@@ -155,17 +156,17 @@
                     <div data-select class="header__menu-select">
                         <div class="header-select__title">
                             <div data-select-title class="header-select__title-text">Language</div>
-                            <div class="header-select__title_arrrow"></div>
+                            <div class="header-select__title-arrrow"></div>
                         </div>
-                        <div class="header-select__dropdown search-select hidden">
-                            <div data-select-item="Help1" class="header-select__dropdown-item">Russian</div>
-                            <div data-select-item="Help2" class="header-select__dropdown-item">English</div>
-                            <div data-select-item="Help3" class="header-select__dropdown-item">Spanish</div>
+                        <div class="header-select__dropdown search-select">
+                            <div data-select-item="Russian" class="header-select__dropdown-item">Russian</div>
+                            <div data-select-item="English" class="header-select__dropdown-item">English</div>
+                            <div data-select-item="Spanish" class="header-select__dropdown-item">Spanish</div>
                             <select class="hidden" name="select_menu-language" id="selectReal" value="none">
-                                <option value="none">CATEGORY</option>
-                                <option value="mobile">Mobile</option>
-                                <option value="tablet">Tablet</option>
-                                <option value="laptop">Laptop</option>
+                                <option value="none">Language</option>
+                                <option value="Russian">Russian</option>
+                                <option value="English">English</option>
+                                <option value="Spanish">Spanish</option>
                             </select>
                         </div>
                     </div>
@@ -174,7 +175,81 @@
             </form>
         </div>
     </header>
+    <section class="carousel-section">
+        <div class="container">
+            <div class="carousel owl-carousel" id="carousel-header">
+                <div class="corousel-item">
+                    <h2 class="corousel__item-title">
+                        The Universe Through A Child S Eyes
+                    </h2>
+                    <div class="carousel__item-text">
+                        <p>Start sales</p>
+                    </div>
+                </div>
+                <div class="corousel-item">
+                    <h2 class="corousel__item-title">
+                        The Universe Through A Child S Eyes
+                    </h2>
+                    <div class="carousel__item-text">
+                        <p>Start sales</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="promo-section">
+        <div class="container">
+            <div class="promo-section__row">
+                <a href="" class="promo-section__wraper">
+                    <div class="promo-section__col">
+                        <div class="promo-section__col-title">
+                            Astronomy Or Astrology
+                        </div>
+                        <div class="promo-section__col-subtitle">
+                            Start sales
+                        </div>
+                        <img src="/img/headphones.jpg" width="187px" height="154px" class="promo-section__col-img">
+                    </div>
+                </a>
+                <a href="" class="promo-section__wraper">
+                    <div class="promo-section__col with_back">
+                        <div class="promo-section__col-title">
+                            The Basics Of Buying A Telescope
+                        </div>
+                        <div class="promo-section__col-subtitle">
+                            Astronomy Or Astrology
+                        </div>
+                    </div>
+                </a>
+                <div class="double-block">
+                    <a href="" class="promo-section__wraper">
+                        <div class="promo-section__col double-block">
+                            <div class="promo-section__col__img-cell">
+                                <img src="/img/pencil.jpg" alt="" width="115px" height="105px">
+                            </div>
+                            <div class="promo-section__col__title-cell">
+                                The Basics Of Buying A Telescope
+                            </div>
+                        </div>
+                    </a>
+                    <a href="" class="promo-section__wraper">
+                        <div class="promo-section__col double-block">
+                            <div class="promo-section__col__img-cell">
+                                <img src="/img/watch.jpg" alt="" width="55px" height="110px">
+                            </div>
+                            <div class="promo-section__col__title-cell">
+                                How Plasma Tvs And Lcd Tvs Differ
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/libs/jquery/jquery-3.5.1.min.js"></script>
+    <script src="/libs/owl-carousel/owl.carousel.min.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/js/header-select.js"></script>
 </body>
 
 </html>
